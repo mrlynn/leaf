@@ -8,6 +8,10 @@
     "type": "git",
     "url": "git://github.com/mongodb-js/mongodb-leaf.git"
   },
+  "scripts": {
+    "start": "gulp start",
+    "build": "gulp build"
+  },
   "devDependencies": {
     "async": "^1.4.0",
     "del": "^1.2.0",

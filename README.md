@@ -1,6 +1,10 @@
 # mongodb-leaf
 
-```
+> Uses `mongodb-leaf.svg` to create pixel-perfect icons for all sizes and formats specified in the [OS X Human Interface Guidelines][hig].
+
+## svg
+
+```xml
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
   version="1.1" x="0px" y="0px" viewBox="0 0 250 250"
   enable-background="new 0 0 250 250" xml:space="preserve">
@@ -67,3 +71,5 @@
 ### 512x512
 
 ![](dist/mongodb-leaf_512x512@2x.png)
+
+[hig]: https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/OSXHIGuidelines/Designing.html#//apple_ref/doc/uid/20000957-CH87-SW7

@@ -11,6 +11,7 @@ var webserver = require('gulp-webserver');
 var rename = require('gulp-rename');
 var shell = require('gulp-shell');
 var im = require('imagemagick');
+var ghPages = require('gulp-gh-pages');
 
 var SIZES = {
   'Favicon, List views, Spotlight Searches': 16,
@@ -126,6 +127,11 @@ gulp.task('webserver', function() {
       directoryListing: false,
       open: true
     }));
+});
+
+gulp.task('deploy', function() {
+  return gulp.src('./dist/{*,**/*}')
+    .pipe(ghPages());
 });
 
 gulp.task('markdown', function() {

@@ -10,7 +10,8 @@
   },
   "scripts": {
     "start": "gulp start",
-    "build": "gulp build"
+    "build": "gulp build",
+    "deploy": "gulp deploy"
   },
   "devDependencies": {
     "async": "^1.4.0",
@@ -19,6 +20,7 @@
     "favicons": "^3.1.3",
     "fs-extra": "^0.22.1",
     "gulp": "^3.9.0",
+    "gulp-gh-pages": "^0.5.2",
     "gulp-jade": "^1.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-shell": "^0.4.2",

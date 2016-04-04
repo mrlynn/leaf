@@ -11,7 +11,8 @@
   "scripts": {
     "start": "gulp start",
     "build": "gulp build",
-    "deploy": "gulp deploy"
+    "deploy": "gulp deploy",
+    "ci": "npm run build"
   },
   "devDependencies": {
     "async": "^1.4.0",

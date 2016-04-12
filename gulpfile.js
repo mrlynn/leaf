@@ -161,7 +161,7 @@ gulp.task('markdown', function() {
 
 gulp.task('build', ['png', 'after-png']);
 
-gulp.task('after-png', ['png', 'html', 'ico', 'iconset']);
+gulp.task('after-png', ['html', 'ico', 'iconset']);
 
 gulp.task('start', ['html', 'webserver'], function() {
   gulp.watch('index.jade', ['html']);

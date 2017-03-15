@@ -19,7 +19,7 @@
     "del": "^2.2.2",
     "eslint-config-mongodb-js": "^2.2.0",
     "favicons": "^4.8.3",
-    "fs-extra": "^1.0.0",
+    "fs-extra": "^2.1.1",
     "gulp": "^3.9.0",
     "gulp-gh-pages": "^0.5.2",
     "gulp-jade": "^1.1.0",
